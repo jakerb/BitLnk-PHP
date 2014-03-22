@@ -6,7 +6,7 @@
 class bitLnk {
 
 	function __construct($url) {
-		$getApi = "http://www.bitlnk.co/api.php?url=" . $url;
+		$getApi = "http://www.bitlnk.co/shorten.php?url=" . $url;
 		$result = file_get_contents($getApi);
 		if($result == FALSE)  {
 			echo "Cannot create BitLnk";
