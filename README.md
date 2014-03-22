@@ -10,7 +10,7 @@ The class included in this Repo contains a simple class to convert any valid URL
 Usage
 =====
 
-To start using this class simple include it in your project and simply `$newVariable = new bitLnk("http://www.example.site");`
+To start using this class simple include it in your project and simply `$newVariable = new bitLnk("http://www.example.com");`
 
 You can modify the content of the class to fit your needs, feel free. 
 
