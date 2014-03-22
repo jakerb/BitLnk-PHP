@@ -12,7 +12,7 @@ class bitLnk {
 			echo "Cannot create BitLnk";
 		}
 		else {
-			echo "http://bitlnk.co/" . $result;
+			echo $result;
 		}
 	}
 }
